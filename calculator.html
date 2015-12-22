@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title> Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    
+</head>    
+<body>
+    <div class="container">
+  
+  <div class="row">
+    <div class="col-sm-4" >
+      
+    </div>
+    <div class="col-sm-4" >
+      <h1>Javascript Calculator</h1>
+
+        <table class ="calculator table table-bordered">
+            <thead>
+            <tr> 
+                <th><input type="button" value="C"></input></th>
+            <th colspan="3"><span class="label label-default" value ="0"></span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input type="button" value="7" onclick="num(this)"></input></td>
+                <td><input type="button" value="8" onclick="num(this)"></input></td>
+                <td><input type="button" value="9" onclick="num(this)"></input></td>
+                <td><input type="button" value="+" onclick="num(this)"></input></td>
+            </tr>
+                <tr>
+                <td><input type="button" value="4" onclick="num(this)"></input></td>
+                <td><input type="button" value="5" onclick="num(this)"></input></td>
+                <td><input type="button" value="6" onclick="num(this)"></input></td>
+                <td><input type="button" value="-" onclick="num(this)"></input></td>
+            </tr>
+                <tr>
+                <td><input type="button" value="1" onclick="num(this)"></input></td>
+                <td><input type="button" value="2" onclick="num(this)"></input></td>
+                <td><input type="button" value="3" onclick="num(this)"></input></td>
+                <td><input type="button" value="*" onclick="num(this)"></input></td>
+            </tr>
+                <tr>
+                <td><input type="button" value="0" onclick="num(this)"></input></td>
+                <td><input type="button" value="." onclick="num(this)"></input></td>
+                <td><input type="button" value="=" onclick="res()"></input></td>
+                <td><input type="button" value="/" onclick="num(this)"></input></td>
+            </tr>
+                
+            </tbody>
+            
+        </table>
+        
+        
+    </div>
+      <div class="col-sm-4" >
+      
+    </div>
+  </div>
+</div>
+</body>
+<script src="calculator.js">
+</script>    
+</html>
